@@ -29,12 +29,13 @@ function save() {
     var artiste = json.current.song.interpreteMorceau
     var annee = json.current.song.anneeEditionMusique
     chrome.storage.sync.get('pl', function(result) 
-    {
-        var playlist = result.pl
-        playlist=playlist+"\n"+artiste+"__"+ titre+"__"+album+"__"+annee
-        chrome.storage.sync.set({'pl' : playlist}, function() {});
+    {	
+	var playlist = ""
+	if (result.pl){playlist = result.pl}
+	playlist=playlist+";new;"+artiste+"__"+ titre+"__"+album+"__"+annee+";end;"
+	chrome.storage.sync.set({'pl' : playlist}, function() {});
     });
-    alert("ajoute!")
+    //alert("ajoute!")
 }
 
 function display() {
