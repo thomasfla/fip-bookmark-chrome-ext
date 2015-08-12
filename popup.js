@@ -18,9 +18,6 @@ function httpGet(theUrl)
 
 
 
-
-
-
 function save() {
     var httpRaw=httpGet("http://www.fipradio.fr/sites/default/files/import_si/si_titre_antenne/FIP_player_current.json")
     var json = JSON.parse(httpRaw);
@@ -32,7 +29,7 @@ function save() {
     {	
 	var playlist = ""
 	if (result.pl){playlist = result.pl}
-	playlist=playlist+";new;"+artiste+"__"+ titre+"__"+album+"__"+annee+";end;"
+	playlist=playlist+";new;"+titre+"__"+ artiste+"__"+album+"__"+annee+";end;"
 	chrome.storage.sync.set({'pl' : playlist}, function() {});
     });
     //alert("ajoute!")
