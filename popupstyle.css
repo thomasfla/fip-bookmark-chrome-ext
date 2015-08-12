@@ -6,3 +6,26 @@ body
     background-size:cover;
 
 }
+
+button
+{
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #000000;
+  font-size: 14px;
+  padding: 6px;
+  background: #a8a5a8;
+  border: solid #000000 1px;
+  text-decoration: none;
+}
+
+button:hover 
+{
+  background: #cfcfcf;
+  text-decoration: none;
+}
