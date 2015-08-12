@@ -1,0 +1,21 @@
+table
+{
+    border-collapse:collapse;
+    width:100%;
+    max-width:700px;
+    min-width:400px;
+    text-align:center;
+    opacity: 1.0;
+}
+
+table,th, td
+{
+    border: 2px solid;
+    border-color: gainsboro;
+}
+
+th, td
+{
+    vertical-align:middle;
+}
+
