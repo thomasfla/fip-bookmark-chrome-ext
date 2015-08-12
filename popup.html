@@ -14,25 +14,28 @@
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
+        background-color:rgba(255,255,255,0.5);
+        
       }
       #status {
         /* avoid an excessively wide status text */
         white-space: pre;
         text-overflow: ellipsis;
         overflow: hidden;
-        max-width: 1000px;
+        min-height: 0px;
+        max-height : 500px;
+        max-width :300px;
         min-width: 300px;
-
       }
     </style>
   </head>
-  <body>
+  <body >
     <div id="status"></div>
-    <button onclick="doFunction()" id="add">Ajouter</button>
-    <button onclick="doFunction()" id="disp">Afficher les favoris</button> 
     <div id="idCurrentSong">
         <p></p>
     </div>
+    <button onclick="doFunction()" id="add">Ajouter</button>
+    <button onclick="doFunction()" id="disp">Afficher les favoris</button> 
     <script src="currentSong.js"></script>
   </body>
 </html>
