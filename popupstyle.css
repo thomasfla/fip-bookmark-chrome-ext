@@ -1,13 +1,11 @@
-body
+/*body
 {
     background: url("popup_backgroundBW.png") fixed top right;
-    background : 
     background-repeat: no-repeat;
     background-size:cover;
+}*/
 
-}
-
-button
+.stdbtn
 {
   -webkit-border-radius: 6;
   -moz-border-radius: 6;
@@ -24,8 +22,71 @@ button
   text-decoration: none;
 }
 
-button:hover 
+.stdbtn:hover 
 {
   background: #cfcfcf;
   text-decoration: none;
+}
+
+.finterbtn
+{
+    width: 30px;
+    height: 30px;
+    background-image: url(finter.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.finfosbtn
+{
+    width: 30px;
+    height: 30px;
+    background-image: url(finfos.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fbleubtn
+{
+    width: 30px;
+    height: 30px;
+    background-image: url(fbleu.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fculturebtn
+{
+    width: 30px;
+    height: 30px;
+    background-image: url(fculture.jpg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fmusiquebtn
+{
+    width: 30px;
+    height: 30px;
+    background-image: url(fmusique.jpg); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fipbtn
+{
+    width: 30px;
+    height: 30px;
+    background-image: url(fip.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mouvbtn
+{
+    width: 30px;
+    height: 30px;
+    background-image: url(mouv.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
 }

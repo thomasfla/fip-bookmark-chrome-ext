@@ -1,6 +1,5 @@
 var p = document.createElement("p");
-var buttonHtml = "<a href=\"deleteSong.html?testmessage\"><img src = \"dust.png\" style = \"width : 20px; height : 20git pull
-px;\"></a>"
+var buttonHtml = "<a href=\"deleteSong.html?testmessage\"><img src = \"dust.png\" style = \"width : 20px; height : 20px;\"></a>"
 
 
 function deleteL()
@@ -21,8 +20,6 @@ chrome.storage.sync.get('pl', function(result)
 document.addEventListener('DOMContentLoaded', function () {
       document.getElementById('deleteLine').addEventListener('click', deleteL); 
 }); 
-   
-document.ready(function(){alert("alert rouge")});
 
 
 

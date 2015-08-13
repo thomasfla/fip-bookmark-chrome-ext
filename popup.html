@@ -14,7 +14,7 @@
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
-        background-color:rgba(255,255,255,0.5);
+          background-color: lightgray;
         
       }
       #status {
@@ -24,19 +24,27 @@
         overflow: hidden;
         min-height: 0px;
         max-height : 500px;
-        max-width :400px;
-        min-width: 400px;
+        max-width :320px;
+        min-width: 320px;
       }
     </style>
   </head>
-  <body >
+  <body>
+      <button class="finterbtn" onclick="doFunction()" id="changeRadio"></button>
+      <button class="finfosbtn" onclick="doFunction()" id="changeRadio"></button>
+      <button class="fbleubtn" onclick="doFunction()" id="changeRadio"></button>
+      <button class="fculturebtn" onclick="doFunction()" id="changeRadio"></button>
+      <button class="fmusiquebtn" onclick="doFunction()" id="changeRadio"></button>
+      <button class="fipbtn" onclick="doFunction()" id="changeRadio"></button>
+      <button class="mouvbtn" onclick="doFunction()" id="changeRadio"></button>
     <div id="status"></div>
     <div id="idCurrentSong">
         <p></p>
     </div>
-    <button onclick="doFunction()" id="openPlayer">Ecouter</button>
-    <button onclick="doFunction()" id="add">Ajouter</button>
-    <button onclick="doFunction()" id="disp">Afficher les favoris</button> 
+    <button class ="stdbtn" onclick="doFunction()" id="openPlayer">Ecouter</button>
+    <button class ="stdbtn" onclick="doFunction()" id="add">Ajouter</button>
+    <button class ="stdbtn" onclick="doFunction()" id="disp">Afficher les favoris</button>
+    <a href="http://www.fipradio.fr" target="_blank"><img src="fipBW.png" style="width:40px;height:40px;vertical-align:bottom;"></a>
     <script src="currentSong.js"></script>
   </body>
 </html>
