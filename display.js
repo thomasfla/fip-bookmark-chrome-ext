@@ -1,5 +1,5 @@
 var p = document.createElement("p");
-var buttonHtml = "<a href=\"deleteSong.html?testmessage\"><img src = \"dust.png\" style = \"width : 20px; height : 20px;\"></a>"
+var buttonHtml = "<a href=\"deleteSong.html?testmessage\"><img src = \"icones/dust.png\" style = \"width : 20px; height : 20px;\"></a>"
 
 
 function deleteL()

@@ -32,7 +32,7 @@
 {
     width: 30px;
     height: 30px;
-    background-image: url(finter.png); 
+    background-image: url(icones/finter.png); 
     background-repeat: no-repeat;
     background-size: contain;
     border-width: 0px;
@@ -42,7 +42,7 @@
 {
     width: 30px;
     height: 30px;
-    background-image: url(finfo.png); 
+    background-image: url(icones/finfo.png); 
     background-repeat: no-repeat;
     background-size: contain;
     border-width: 0px;
@@ -52,7 +52,7 @@
 {
     width: 30px;
     height: 30px;
-    background-image: url(fbleu.png); 
+    background-image: url(icones/fbleu.png); 
     background-repeat: no-repeat;
     background-size: contain;
     border-width: 0px;
@@ -62,7 +62,7 @@
 {
     width: 30px;
     height: 30px;
-    background-image: url(fculture.png); 
+    background-image: url(icones/fculture.png); 
     background-repeat: no-repeat;
     background-size: contain;
     border-width: 0px;
@@ -72,7 +72,7 @@
 {
     width: 30px;
     height: 30px;
-    background-image: url(fmusique.png); 
+    background-image: url(icones/fmusique.png); 
     background-repeat: no-repeat;
     background-size: contain;
     border-width: 0px;
@@ -82,7 +82,7 @@
 {
     width: 30px;
     height: 30px;
-    background-image: url(fip.png); 
+    background-image: url(icones/fip.png); 
     background-repeat: no-repeat;
     background-size: contain;
     border-width: 0px;
@@ -92,7 +92,7 @@
 {
     width: 30px;
     height: 30px;
-    background-image: url(mouv.png); 
+    background-image: url(icones/mouv.png); 
     background-repeat: no-repeat;
     background-size: contain;
     border-width: 0px;
