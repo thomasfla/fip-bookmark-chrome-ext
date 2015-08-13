@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
       document.getElementById('disp').addEventListener('click', display); 
-      document.getElementById('add').addEventListener('click', save);            
+      document.getElementById('add').addEventListener('click', save);            document.getElementById('openPlayer').addEventListener('click',openPlayer); 
 });
 
 
@@ -52,4 +52,9 @@ function display() {
         var playlist = result.pl
         alert("playlist="+playlist)
     });
+}
+
+function openPlayer()
+{
+    chrome.tabs.create({url: "http://www.fipradio.fr/player"});
 }
