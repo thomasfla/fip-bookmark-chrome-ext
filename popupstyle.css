@@ -35,15 +35,17 @@
     background-image: url(finter.png); 
     background-repeat: no-repeat;
     background-size: contain;
+    border-width: 0px;
 }
 
-.finfosbtn
+.finfobtn
 {
     width: 30px;
     height: 30px;
-    background-image: url(finfos.png); 
+    background-image: url(finfo.png); 
     background-repeat: no-repeat;
     background-size: contain;
+    border-width: 0px;
 }
 
 .fbleubtn
@@ -53,24 +55,27 @@
     background-image: url(fbleu.png); 
     background-repeat: no-repeat;
     background-size: contain;
+    border-width: 0px;
 }
 
 .fculturebtn
 {
     width: 30px;
     height: 30px;
-    background-image: url(fculture.jpg); 
+    background-image: url(fculture.png); 
     background-repeat: no-repeat;
     background-size: contain;
+    border-width: 0px;
 }
 
 .fmusiquebtn
 {
     width: 30px;
     height: 30px;
-    background-image: url(fmusique.jpg); 
+    background-image: url(fmusique.png); 
     background-repeat: no-repeat;
     background-size: contain;
+    border-width: 0px;
 }
 
 .fipbtn
@@ -80,6 +85,7 @@
     background-image: url(fip.png); 
     background-repeat: no-repeat;
     background-size: contain;
+    border-width: 0px;
 }
 
 .mouvbtn
@@ -89,4 +95,40 @@
     background-image: url(mouv.png); 
     background-repeat: no-repeat;
     background-size: contain;
+    border-width: 0px;
+}
+
+.finterbtn:hover
+{
+    opacity: 0.3;
+}
+
+.finfobtn:hover
+{
+    opacity: 0.3;
+}
+
+.fbleubtn:hover
+{
+    opacity: 0.3;
+}
+
+.fculturebtn:hover
+{
+    opacity: 0.3;
+}
+
+.fmusiquebtn:hover
+{
+    opacity: 0.3;
+}
+
+.fipbtn:hover
+{
+    opacity: 0.3;
+}
+
+.mouvbtn:hover
+{
+    opacity: 0.3;
 }
