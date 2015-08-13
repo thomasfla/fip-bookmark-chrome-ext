@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Favoris Fip",
-  "description": "This extension shows a Google Image search result for the current page",
+  "description": "Connaitre et créer une liste des morceaux marquants de FIP RADIO",
   "version": "0.1",
   "browser_action": {
     "default_popup": "popup.html"
