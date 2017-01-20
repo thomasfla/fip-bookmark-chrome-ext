@@ -13,7 +13,7 @@ var album= json.current.song.titreAlbum
 var titre = json.current.song.titre
 var artiste = json.current.song.interpreteMorceau
 var annee = json.current.song.anneeEditionMusique
-var visuel = "http://is4.mzstatic.com/image/thumb/Music6/v4/cd/97/0a/cd970adf-ed41-8993-1a4f-8ac894d14683/source/100x100bb.jpg"
+var visuel = json.current.song.visuel.small
 
 var p = document.createElement("p");
 document.getElementById('idCurrentSong').innerHTML = 
